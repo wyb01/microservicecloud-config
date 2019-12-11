@@ -1,15 +1,15 @@
 ﻿spring: 
-   profiles: 
-     active: 
-     - dev
+  profiles: 
+    active: 
+      - dev
 ---
 server: 
   port: 7001
 
 spring: 
-   profiles：dev   #开发环境
-   application:  
-     name: microservicecloud-config-eureka-client
+  profiles：dev   #开发环境
+  application:  
+    name: microservicecloud-config-eureka-client
 
 eureka: 
   instance:
